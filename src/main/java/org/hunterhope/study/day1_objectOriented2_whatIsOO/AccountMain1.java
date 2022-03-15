@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package org.hunterhope.study.day1_objectOriented_whatIsOO;
+package org.hunterhope.study.day1_objectOriented2_whatIsOO;
 
 /**
  *程序導向,會造成相同邏輯,卻一直重複寫,不小心寫錯

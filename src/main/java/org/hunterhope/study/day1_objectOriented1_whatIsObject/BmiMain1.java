@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package org.hunterhope.study.day1_objectOriented_whatIsObject;
+package org.hunterhope.study.day1_objectOriented1_whatIsObject;
 
 /**
  *什麼是物件

@@ -2,14 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package org.hunterhope.study.day1_objectOriented_whatIsOO;
+package org.hunterhope.study.day1_objectOriented2_whatIsOO;
 
 /**
- * 利用物件導向存款
- *
+ *Account多了提款與打印程序
  * @author user
  */
-public class AccountMain2 {
+public class AccountMain3 {
 
     /**
      * @param args the command line arguments
@@ -21,12 +20,19 @@ public class AccountMain2 {
 
         //存款50
         a1.diposit(50);
-        System.out.printf("%s %d%n", a1.name, a1.balance);
-
+        a1.print();
+        
         //存款100
         a1.diposit(100);
-        System.out.printf("%s %d%n", a1.name, a1.balance);//每次存款都要看結果,也可以物件導向
-        //提款也該寫成物件導向
+        a1.print();
+        
+        //提款70
+        a1.withdrawal(70);
+        a1.print();
+        
+        //提款100
+        a1.withdrawal(100);
+        a1.print();//???可以提款?程序有問題,應該加上判斷
     }
-
+    
 }
