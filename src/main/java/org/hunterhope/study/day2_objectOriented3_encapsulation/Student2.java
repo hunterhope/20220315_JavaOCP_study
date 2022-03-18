@@ -20,18 +20,21 @@ public class Student2 {
     void setHeight(double h){
         if(h<0||h>300){
             System.out.println("身高資料錯誤");
+            return;
         }
         height=h;
     }
     void setWeight(double w){
         if(w<=0||w>300){
             System.out.println("體重資料錯誤");
+            return;
         }
         weight=w;
     }
     void setScore(int s){
         if(s<0||s>100){
             System.out.println("分數資料錯誤");
+            return;
         }
         score=s;
     }
