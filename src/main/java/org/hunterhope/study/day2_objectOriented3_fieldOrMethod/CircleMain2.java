@@ -19,8 +19,6 @@ public class CircleMain2 {
         c1.setR(r);
         double area = c1.getArea();
         System.out.printf("r= %.1f area = %.3f%n",r,area);
-        //面積射程一個功能好嗎?
-        //每次都要浪費效能計算不會變的值?
     }
     
 }
