@@ -26,10 +26,10 @@ public class StringDemo3_JavaString11 {
         str4.repeat(5);
         System.out.println("repeat1:"+str4);
         System.out.println("repeat2:"+str4.repeat(5));
-        String str5=" Java ";
+        String str5=" Java ";//????
         System.out.println("trim :"+str5.trim());           
         System.out.println("strip :"+str5.strip());
-        String str6="\tJava ";
+        String str6="\tJava ";//???
         System.out.println("trim :"+str6.trim());           
         System.out.println("strip :"+str6.strip());
     }
